@@ -21,14 +21,15 @@ Let's create a Tic Tac Toe game to play with family and friends.
 
 ## User Story
 
-- User play "Rock Paper Scissors game" with a computer.
-- User select "Rock" or "Paper" or "Scissors" and game start.
-- User selection trigger computer selection
-- Computer's selection is random. Result is display immediately.
+- Has two player "X" and "O".
+- Every play tick "X" or "O" on square.
+- Player has 3 "X" "O" consecutive is winner.
+- Click "Go to game start" to restart game.
+- Click "Go to move" to undo this step.
 
 ## Requirement
 
-Fork this [repo](https://github.com/trancaodua/rock-paper-scrissor-game) and read through the files.
+Fork this [repo](https://github.com/trancaodua/tic-tac-toe-game) and read through the files.
 Often time , developers are required to work with an existing codebase and improve upon. This is one of that time. 
 
 Repositories has 2 brank:
@@ -36,7 +37,7 @@ Repositories has 2 brank:
 - Solution: Has answer of requirement.
 
 Guide checkout requirement brank to code:
-- Step 1: Clone repositories. Run: ````git clone https://github.com/trancaodua/rock-paper-scrissor-game.git````
+- Step 1: Clone repositories. Run: ````git clone https://github.com/trancaodua/tic-tac-toe-game.git````
 - Step 2: Checkout requirement brank to do. Run: ````git checkout requirement````
 
 Guide checkout solution brank to check answer:
