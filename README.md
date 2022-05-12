@@ -13,7 +13,7 @@ The purpose of this project is to practice our skills with React props.
 
 Let's create a mini "Tic Tac Toe" game to play with family and friends.
 
-| ![](https://i.ibb.co/jZb3HCZ/Screenshot-from-2022-05-12-00-34-54.png) |
+| ![](https://i.ibb.co/7kxyMb4/Screenshot-from-2022-05-12-01-32-13.png) |
 | :-------------------------------------------------------------------: |
 |                      _ Tic Tac Toe_                      |
 
