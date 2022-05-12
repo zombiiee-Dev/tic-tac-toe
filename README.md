@@ -44,7 +44,7 @@ Guide checkout ````requirements```` branch to code:
 
 Guide checkout ````solution```` branch to check answer:
 - Step 1: Checkout solution brank to do. Run: ````git checkout solution````
-- 
+
 Guide checkout ````advance_solution```` brank to check :rocket: answer:
 - Step 1: Checkout solution brank to do. Run: ````git checkout advance_solution````
 
