@@ -6,10 +6,9 @@ function Game() {
   const [xIsNext, setXIsNext] = useState(true);
   const [winner, setWinner] = useState(null);
 
+  //Declaring a Winner
   useEffect(() => {
-    const newWinner = calculateWinner(squares);
-    console.log(newWinner);
-    setWinner(newWinner);
+    "Your code here";
   }, [squares]);
 
   //function to check if a player has won.
@@ -39,10 +38,12 @@ function Game() {
     return null;
   };
 
+  //Handle player
   const handleClick = (i) => {
     "Your code here";
   };
 
+  //Restart game
   const handlRestart = () => {
     "Your code here";
   };
