@@ -34,7 +34,7 @@ Fork this [repo](https://github.com/trancaodua/tic-tac-toe-game) and read throug
 Often time , developers are required to work with an existing codebase and improve upon. This is one of that time. 
 
 Repositories has 3 branch:
-- Requirements: Has requirement. You will code on this branch.
+- Requirements: Has requirements. You will code on this branch.
 - Solution: Has answers of requirements.
 - Advance solution: Has :rocket: answers of requirements.
 
