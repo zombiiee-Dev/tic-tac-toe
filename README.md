@@ -11,7 +11,7 @@ id: tic-tac-toe_game_trancaodua
 Props are one of the most basic and important properties in React.
 The purpose of this project is to practice our skills with React props.
 
-Let's create a Tic Tac Toe game to play with family and friends.
+Let's create a mini "Tic Tac Toe" game to play with family and friends.
 
 | ![](https://i.ibb.co/jZb3HCZ/Screenshot-from-2022-05-12-00-34-54.png) |
 | :-------------------------------------------------------------------: |
@@ -22,26 +22,31 @@ Let's create a Tic Tac Toe game to play with family and friends.
 ## User Story
 
 - Has two player "X" and "O".
-- Every play tick "X" or "O" on square.
-- Player has 3 "X" "O" consecutive is winner.
-- Click "Go to game start" to restart game.
-- Click "Go to move" to undo this step.
+- Every player turns tick "X" or "O" on square.
+- Player has 3 ("X" or "O") consecutive is winner.
+- Click "Restart" to restart game.
+- :rocket: Storing a history of moves.
+- :rocket::rocket::rocket: Player can undo move.
 
 ## Requirement
 
 Fork this [repo](https://github.com/trancaodua/tic-tac-toe-game) and read through the files.
 Often time , developers are required to work with an existing codebase and improve upon. This is one of that time. 
 
-Repositories has 2 brank:
-- Requirement: Has requirement. You will code on this brank.
-- Solution: Has answer of requirement.
+Repositories has 3 branch:
+- Requirements: Has requirement. You will code on this branch.
+- Solution: Has answers of requirements.
+- Advance solution: Has :rocket: answers of requirements.
 
-Guide checkout requirement brank to code:
+Guide checkout ````requirements```` branch to code:
 - Step 1: Clone repositories. Run: ````git clone https://github.com/trancaodua/tic-tac-toe-game.git````
-- Step 2: Checkout requirement brank to do. Run: ````git checkout requirement````
+- Step 2: Checkout requirement brank to do. Run: ````git checkout requirements````
 
-Guide checkout solution brank to check answer:
+Guide checkout ````solution```` branch to check answer:
 - Step 1: Checkout solution brank to do. Run: ````git checkout solution````
+- 
+Guide checkout ````advance_solution```` brank to check :rocket: answer:
+- Step 1: Checkout solution brank to do. Run: ````git checkout advance_solution````
 
 You should only code in the designinated area.
 Using the VSC search function for "Your code here", you will see a list of all the placces that required your attention.
