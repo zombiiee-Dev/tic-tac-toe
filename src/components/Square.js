@@ -1,4 +1,5 @@
 import React from "react";
+//bo value, onClick.
 
 function Square({ value, handleClick }) {
   return (

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import Square from "./Square";
 
-export default function Board({ squares, handleClick }) {
-  console.log("dua", squares);
+export default function Board({ squares, handleClick, jumpTo }) {
   return (
     <div className="board">
       <div>
