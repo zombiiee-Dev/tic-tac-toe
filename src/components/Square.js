@@ -1,10 +1,9 @@
 import React from "react";
-//bo value, onClick.
 
-function Square({ value, handleClick }) {
+function Square({"Your code here"}) {
   return (
-    <button className="square" onClick={handleClick}>
-      {value}
+    <button className={"square"} onClick={"Your code here"}>
+      "Your code here"
     </button>
   );
 }

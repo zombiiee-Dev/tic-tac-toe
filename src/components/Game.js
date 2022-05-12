@@ -12,6 +12,9 @@ function Game() {
     setWinner(newWinner);
   }, [squares]);
 
+  //function to check if a player has won.
+  //If a player has won, we can display text such as “Winner: X” or “Winner: O”.
+  //Input: squares: given an array of 9 squares:'X', 'O', or null.
   const calculateWinner = (squares) => {
     const lines = [
       [0, 1, 2],
@@ -37,21 +40,11 @@ function Game() {
   };
 
   const handleClick = (i) => {
-    const newSquares = squares.slice();
-
-    if (calculateWinner(newSquares) || newSquares[i]) {
-      return;
-    }
-
-    newSquares[i] = xIsNext ? "X" : "O";
-
-    setSquares(newSquares);
-    setXIsNext((prevState) => !prevState);
+    "Your code here";
   };
 
   const handlRestart = () => {
-    setSquares(Array(9).fill(null));
-    setXIsNext(true);
+    "Your code here";
   };
 
   return (
@@ -59,9 +52,9 @@ function Game() {
       <h2 className="result">Winner is: {winner ? winner : "N/N"}</h2>
       <div className="game">
         <span className="player">Next player is: {xIsNext ? "X" : "O"}</span>
-        <Board squares={squares} handleClick={handleClick} />
+        <Board squares={"Your code here"} handleClick={"Your code here"} />
       </div>
-      <button onClick={handlRestart} className="restart-btn">
+      <button onClick={"Your code here"} className="restart-btn">
         Restart
       </button>
     </div>
